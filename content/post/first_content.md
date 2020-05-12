@@ -1,11 +1,11 @@
 ---
-title: "HUGOでブログ作成  →  GitHub Pagesで公開する手順"
+title: "最初のブログ"
 date: 2020-05-12T21:46:17+09:00
-draft: true
+draft: false
 categories: ["HUGO"]
 tags: ["GitHub","HUGO","test"]
 ---
 
 
 
-aaa
+aaaaaaaaaaa
