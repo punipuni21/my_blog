@@ -1,9 +1,41 @@
 baseURL = "https://punipuni21.github.io/punipuni_blog.github.io/"
 languageCode = "ja-jp"
 weight = 1
-title = "chanmitsu55 blog"
+title = "ぷにぷにのブログ"
 publishDir = "public"  # 公開ファイルのディレクトリ名
 theme= "hugo_theme_robust" # 使用するテーマ名
 hasCJKLanguage = true # 記事のサマリー機能を有効にする。trueにしないと記事サマリーの文章量が大きくなりすぎる。
-paginate = 10 # 一つのページに何個まで記事を載せるか。
+paginate = 5 # 一つのページに何個まで記事を載せるか。
 paginatePath = "page"
+
+
+
+[params]
+    brand = "punipuni blog"
+    topline = "ぷにぷにの技術ブログ"
+
+[params.author]
+    thumbnail = "images/noa.jpg"
+    name = "punipuni"
+    description = """<div align="center">
+    横浜国立大学大学院生（M1）. <br>
+    競プロとかいろいろ<br>
+    <a href="https://twitter.com/puni_kyopro">Twitter</a>/
+    <a href="https://github.com/punipuni21">Repository</a>
+    </div>"""
+    twitter = "https://twitter.com/puni_kyopro"
+	github = "https://github.com/punipuni21"
+    email = "watanaberyotaroyp@gmail.com"
+    
+[taxonomies]
+    archive = "archives"
+    tag = "tags"
+    category = "categories"
+
+[menu]
+
+    [[menu.main]]
+        identifier = ""
+        name = "Home"
+        url = "/"
+        weight = 1

@@ -1,14 +1,14 @@
 ---
 # 記事タイトルの設定
-title: "{{ replace .Name "-" " " | title }}"
+title: "Third"
 # 記事の説明
 description : "記事の説明"
 
 # 更新日
-lastmod: "{{ now.Format "2006-01-02" }}"
+lastmod: "2020-05-13"
 
 #アーカイブの設定を作成日付で設定する
-archives: [{{ dateFormat "2006/01" .Date }}]
+archives : ["2020/05"]
 
 # 下書きモード（true=下書き、false=公開）
 draft: true
@@ -23,6 +23,5 @@ categories: ["Hugo", "備忘録"]
 toc: true
 
 ---
-
 
 this is my article.
