@@ -1,28 +1,14 @@
 ---
-# 記事タイトルの設定
-title: "{{ replace .Name "-" " " | title }}"
-# 記事の説明
+title: "Four"
 description : "記事の説明"
-
-# 更新日
-lastmod: "{{ now.Format "2006-01-02" }}"
-
-#アーカイブの設定を作成日付で設定する
-archives: [{{ dateFormat "2006/01" .Date }}]
-
-# 下書きモード（true=下書き、false=公開）
+lastmod: "2020-05-15"
+archives: [2020/05]
 draft: true
-
-# タグ
 tags: ["", ""]
-
-# カテゴリ
 categories: ["Hugo", "備忘録"]
-
-# 目次設定（true=表示、false=非表示）
 toc: true
-
 ---
+
 
 ## 概要
 
@@ -52,3 +38,4 @@ int main() {
 	cout << n*(n+1)/2 << endl;
 }
 ```
+
