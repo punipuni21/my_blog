@@ -1,18 +1,19 @@
 baseURL = "https://punipuni21.github.io/punipuni_blog.github.io/"
 languageCode = "ja-jp"
 weight = 1
-title = "ぷにぷにのブログ"
+title = "ぷにぷにのサイト"
 publishDir = "public"  # 公開ファイルのディレクトリ名
 theme= "hugo_theme_robust" # 使用するテーマ名
 hasCJKLanguage = true # 記事のサマリー機能を有効にする。trueにしないと記事サマリーの文章量が大きくなりすぎる。
 paginate = 5 # 一つのページに何個まで記事を載せるか。
 paginatePath = "page"
+SectionPagesMenu = "main"
 
 
 
 [params]
     brand = "punipuni blog"
-    topline = "ぷにぷにの技術ブログ"
+    topline = "ぷにぷにのサイト"
 
 [params.author]
     thumbnail = "images/noa.jpg"
@@ -39,3 +40,6 @@ paginatePath = "page"
         name = "Home"
         url = "/"
         weight = 1
+    
+    
+  

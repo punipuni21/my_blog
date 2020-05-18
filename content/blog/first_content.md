@@ -5,6 +5,8 @@ draft: false
 categories: ["Test"]
 tags: ["GitHub","HUGO","test"]
 archives : ["2020/05"]
+menu: ["hugo","blog"]
+toc: false
 ---
 
 <!-------  ここは目次 ------ >
@@ -16,6 +18,8 @@ archives : ["2020/05"]
 
 <!-- /TOC -->
 <!-------  目次終了 --------->
+
+<!--more-->
 
 ## 概要
 

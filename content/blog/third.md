@@ -20,7 +20,7 @@ tags: ["", ""]
 categories: ["Hugo", "備忘録"]
 
 # 目次設定（true=表示、false=非表示）
-toc: true
+toc: false
 
 ---
 
