@@ -11,7 +11,7 @@ lastmod: "2020-06-02"
 archives: [2020/06]
 
 # 下書きモード（true=下書き、false=公開）
-draft: true
+draft: false
 
 # タグ
 tags: ["", ""]
