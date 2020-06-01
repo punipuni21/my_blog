@@ -55,6 +55,7 @@
 </head>
 <body>
   <header class="l-header">
+    {{ partial "add-mathjax-to-page.html" . }}
     <h1 class="logo">
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
     </h1>
